@@ -139,13 +139,13 @@ Ayrıca iç içe kullanımıda mevcuttur. Aşağıdaki gibi kullanabilirsiniz.
 | :-- | :-- | :-- |
 | \> Örnek Not<br>\> \> Bir örnek daha | \<blockquote\><br>Örnek Not<br>\<blockquote>Bir örnek daha\</blockquote><br>\</blockquote> | <blockquote>Örnek Not<blockquote>Bir örnek daha</blockquote></blockquote> |
 
-# Liste Oluşturma
-
 <br>
 
 ---
 
 <br>
+
+# Liste Oluşturma
 
 ## Sırasız Liste
 Sırasız liste oluşturmak için, `*` veya `-` işaretlerini kullanabiliriz.
@@ -303,6 +303,12 @@ Oldukça basit bir konudur. en az üç tane olacak şekilde yan yana `-` kulland
 
 Bu şekilde ihtiyaç duyduğunuz alanlarda kullanabilirsiniz.
 
+<br>
+
+---
+
+<br>
+
 # HTML Kullanma
 
 **Markdown**'da bazı durumlarda tablo `HTML` kodlarını kullanmanız gerekebilir. Kendisi her ne kadar `HTML`'i daha kolay hale getirmek olsa da yine de `HTML`'e ihtiyacınız olduğunda `HTML`'i kullanmanıza engel olmuyor.
@@ -388,7 +394,7 @@ Sonuç aşağıdaki gibidir.
 | 3 | Jason | Statham |
 | 4 | Keanu | Reeves |
 
-### Ortya Dayalı Tablo
+### Ortaya Dayalı Tablo
 
 Aşağıdaki komutu girdiğinizde ortalanmış bir tablo oluşacaktır.
 ```md
@@ -409,7 +415,7 @@ Aşağıdaki komutu girdiğinizde ortalanmış bir tablo oluşacaktır.
 | 3 | Jason | Statham |
 | 4 | Keanu | Reeves |
 
-### Sağ Dayalı Tablo
+### Sağa Dayalı Tablo
 
 Aşağıdaki komutu girdiğinizde sağ tarafa doğru hizalı bir tablo oluşacaktır.
 ```md
