@@ -2,12 +2,24 @@
 [Markdown Eğitimi](https://youtube.com/watch?v=hPvKBmuqHKQ) için çekmiş olduğum videonun yazılı anlatımını bu makalede anlatmak istedim. Bu makalede **Markdown**ı kullanmayı öğreneceksiniz. 
 Ayrıca kendini **Markdown**da geliştirebilir ve **Markdown** destekleyen platformlarda problem yaşamadan rahat bir şekilde kullanabilirsiniz.
 
+<br>
+
+---
+
+<br>
+
 # Paragraf Oluşturma
 Paragraf oluşturmak oldukça basittir. Normal bir yazı yazmaya başlayarak bir paragraf oluşturabilirsin.
 
 | Markdown | HTML | Sonuç |
 | :-- | :-- | :-- |
 | Bu cümle örnek olarak oluşturulmuştur.<br><br>Örnek bir cümle daha. | \<p\>Bu cümle örnek olarak oluşturulmuştur.</p\><br><br>\<p\>Örnek bir cümle daha.</p\> | Bu cümle örnek olarak oluşturulmuştur.<br><br>Örnek bir cümle daha. |
+
+<br>
+
+---
+
+<br>
 
 # Başlık Oluşturma
 Başlık oluşturmak için hashtag/kare `#` işareti kullanılır. **Markdown**da 1 ila 6'ya kadar başlık bulunmaktadır. Bu başlıkların oluşturulması aşağıdaki gibidir;
@@ -34,6 +46,12 @@ Ayrıca bu başlıkları oluşturmak için alternatif yöntemlerde bulunmaktadı
 | Başlık 1<br>=== | \<h1\>Başlık 1\</h1\> | <h1>Başlık 1</h1> |
 | Başlık 2<br>--- | \<h2\>Başlık 2\</h2\> | <h2>Başlık 2</h2> |
 
+<br>
+
+---
+
+<br>
+
 # Eğik Yazı Oluşturma
 **Markdown**da eğik diğer adıyla italik yazı yazmak için aşağıdaki gibi kullanabilirsiniz.
 
@@ -48,6 +66,12 @@ Eğik yazı yazarken alternatif bir yöntem daha mevcuttur. O da şu şekilde;
 | Örnek \_eğik yazı\_ | Örnek \<i\>eğik yazı</i\> | Örnek _eğik yazı_ |
 
 > Hatırlatma: Her ne kadar alternatif kullanımı olsa da biz; `*yazı*` biçiminde kullanmanızı tavsiye ederiz.
+
+<br>
+
+---
+
+<br>
 
 # Kalın Yazı Oluşturma
 **Markdown**da kalın yazı yazmak için şu şekilde kullanabilirsiniz.
@@ -64,6 +88,12 @@ Eğik yazıda olduğu gibi kalın yazı içinde alternatif bir yöntem daha mevc
 
 > Hatırlatma: Alternatif kullanımı olsa da `**yazı**` biçiminde kullanmanızı öneririz.
 
+<br>
+
+---
+
+<br>
+
 # Eğik ve Kalın Yazı Oluşturma
 **Markdown**da aynı anda hem eğik hemde kalın yazı yazabilirsiniz. Bunun için;
 
@@ -78,6 +108,12 @@ Bu yazı içinde alternatif bir kullanım yöntemi mevcuttur.
 | Örnek \_\_\_eğik ve kalın yazı\_\_\_ | Örnek \<i\>\<b\>eğik ve kalın yazı</b\>\</i\> | Örnek ***eğik ve kalın yazı*** |
 
 > Hatırlatma: Alternatif kullanımı olsa da `***yazı***` şeklinde kullanmanızı öneririz. Günümüzde en çok kullanılan yöntem `*` yöntemidir.
+
+<br>
+
+---
+
+<br>
 
 # Üstü Çizili Yazı
 Her ne kadar YouTube videosunda üstü çizili şekilde gözükmesede güncelleme sonraı üstü çizili yazı ortaya çıktı. Sanırım **Github**ın düzenleme modu ile alakalı bir durum. Üstü çizili yazı oluşturmak için; `~` işaretini kullanıyoruz.
@@ -105,6 +141,12 @@ Ayrıca iç içe kullanımıda mevcuttur. Aşağıdaki gibi kullanabilirsiniz.
 
 # Liste Oluşturma
 
+<br>
+
+---
+
+<br>
+
 ## Sırasız Liste
 Sırasız liste oluşturmak için, `*` veya `-` işaretlerini kullanabiliriz.
 
@@ -130,6 +172,12 @@ Sıralı liste için liste başına, `1.`, `2.`, `3.` vb. kullanım yapabilirsin
 | 1. Örnek Liste<br>1. Örnek Liste<br>1. Örnek Liste | \<ol\><br>\<li\>Örnek Liste\</li\><br>\<li\>Örnek Liste\</li\><br>\<li\>Örnek Liste\</li\><br>\</ol\> | <ol><li>Örnek Liste</li><li>Örnek Liste</li><li>Örnek Liste</li></ol> |
 
 > Yukarıdaki örnekteki gibi `1.`, `1.` ... gibi kullanmak sizin işinizi kolaylaştırabilir.
+
+<br>
+
+---
+
+<br>
 
 # Kod Bloğu Oluşturma
 Kod bloğu, kodu biçimlendirmek ve vurgulamak için kullanılır.
@@ -191,10 +239,17 @@ int main() {
 
 > Popüler birçok programlama dili desteklenmektedir.
 
+<br>
+
+---
+
+<br>
+
 # Görsel Ekleme
 
-Markdown'da görsel eklemek biraz zor olabilir ama kullandıkça eliniz alışacaktır. `![](Resim Yolu)` şeklinde görsellerinizi oluşturabilirsiniz.
+![Linux Logosu](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/150px-Tux.svg.png)
 
+Markdown'da görsel eklemek biraz zor olabilir ama kullandıkça eliniz alışacaktır. `![](Resim Yolu)` şeklinde görsellerinizi oluşturabilirsiniz.
 
 | Markdown | HTML | Sonuç |
 | :-- | :-- | :-- |
@@ -206,13 +261,19 @@ Görsel oluştururken `[]` içerisine resmin **alternatif metnini** girebilirsin
 | :-- | :-- | :-- |
 | \!\[Linux Logosu](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/150px-Tux.svg.png) | \<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/150px-Tux.svg.png" alt="Linux Logosu"> | ![Linux Logosu](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/150px-Tux.svg.png) |
 
+<br>
+
+---
+
+<br>
+
 # Link Ekleme
 
 **Görsel Ekleme** ile aynı şekilde kullanılır. Sadece `![]()` komutunda yer alan ünlem (`!`) işaretini kullanmıyoruz. Yani `[]()` komutu ile linklerinizi oluşturabilirsiniz.
 
 | Markdown | HTML | Sonuç |
 | :-- | :-- | :-- |
-| \[Google](https://www.google.com.tr/) | \<a href="https://www.google.com.tr/">Google</a> | [Google](https://www.google.com.tr/) |
+| \[Google](https://www.google.com.tr) | `<a href="https://www.google.com.tr">Google</a>` | [Google](https://www.google.com.tr) |
 
 **Görsel Ekleme** bölümündeki gibi köşeli parantezler (`[]`) mevcuttur. Bu parantez içerisine yazmış olduğunuz kelime/kelimeler linki işaret edecektir.
 
@@ -222,11 +283,15 @@ Oldukça fazla bir şekilde kullanmak isteyebilirsiniz. Yöntemi kullanmak biraz
 
 | Markdown | HTML | Sonuç |
 | :-- | :-- | :-- |
-| \[!\[Linux Logosu](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/150px-Tux.svg.png)](https://linux.org/) | \<a href="https://linux.org">\<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/150px-Tux.svg.png" alt="Linux Logosu"></a> | [![Linux Logosu](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/150px-Tux.svg.png)](https://linux.org/) |
+| \[!\[Linux Logosu](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/150px-Tux.svg.png)](https://linux.org/) | `<a href="https://linux.org"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/150px-Tux.svg.png" alt="Linux Logosu"></a>` | [![Linux Logosu](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/150px-Tux.svg.png)](https://linux.org/) |
 
 Bu şekilde görsele tıkladığınızda bir URL açılacaktır.
 
+<br>
+
 ---
+
+<br>
 
 # Alt Çizgi Oluşturma
 
@@ -250,6 +315,12 @@ Bu şekilde ihtiyaç duyduğunuz alanlarda kullanabilirsiniz.
 | \<i>Eğik Yazı\</i> | \<i>Eğik Yazı\</i> | <i>Eğik Yazı</i> |
 | \<u>Altı Çizili Yazı\</u> | \<u>Altı Çizili Yazı\</u> | <u>Altı Çizili Yazı</u> |
 | \<s>Üstü Çizili Yazı\</s> | \<s>Üstü Çizili Yazı\</s> | <s>Üstü Çizili Yazı</s> |
+
+<br>
+
+---
+
+<br>
 
 # Tablo Ekleme
 
@@ -359,12 +430,30 @@ Yukarıdaki komutun sonuç aşağıdaki gibidir.
 | 3 | Jason | Statham |
 | 4 | Keanu | Reeves |
 
+<br>
+
+---
+
+<br>
+
 # Son
 
 **Markdown** eğitimi kabaca bu şekildeydi. Bu yönergeler ile birlikte kolay bir şekilde **Markdown** yapısına aşina olabilir ve ihtiyaçlarınızı karşılayabilirsiniz.
 
+<br>
+
+---
+
+<br>
+
 # Katkıda Bulunun
 Makalede eksik gördüğünüz kısım var ise, bu repositoryi **fork**layın ve gereken değişikliği yapın. Ardından değişikliği bana göndererek kontrol edeyim. Yaptığınız güncelleme mantıklı ise, bu repositoryi güncelleyeyim.
+
+<br>
+
+---
+
+<br>
 
 # İletişim
 Herhangi bir sorununuz olması durumunda aşağıdaki linklerden sosyal medya adreslerime ulaşabilirsiniz.
