@@ -1,13 +1,3 @@
-# Giriş
-[Markdown Eğitimi](https://youtube.com/watch?v=hPvKBmuqHKQ) için çekmiş olduğum videonun yazılı anlatımını bu makalede anlatmak istedim. Bu makalede **Markdown**ı kullanmayı öğreneceksiniz. 
-Ayrıca kendini **Markdown**da geliştirebilir ve **Markdown** destekleyen platformlarda problem yaşamadan rahat bir şekilde kullanabilirsiniz.
-
-<br>
-
----
-
-<br>
-
 # Paragraf Oluşturma
 Paragraf oluşturmak oldukça basittir. Normal bir yazı yazmaya başlayarak bir paragraf oluşturabilirsin.
 
