@@ -74,7 +74,7 @@ Eğik yazıda olduğu gibi kalın yazı içinde alternatif bir yöntem daha mevc
 
 | Markdown | HTML | Sonuç |
 | :-- | :-- | :-- |
-| Örnek \_\_kalın yazı\_\_ | Örnek \<b\>eğik yazı</b\> | Örnek __eğik yazı__ |
+| Örnek \_\_kalın yazı\_\_ | Örnek \<b\>kalın yazı</b\> | Örnek __kalın yazı__ |
 
 > Hatırlatma: Alternatif kullanımı olsa da `**yazı**` biçiminde kullanmanızı öneririz.
 
@@ -434,7 +434,7 @@ Yukarıdaki komutun sonuç aşağıdaki gibidir.
 
 # Son
 
-**Markdown** eğitimi kabaca bu şekildeydi. Bu yönergeler ile birlikte kolay bir şekilde **Markdown** yapısına aşina olabilir ve ihtiyaçlarınızı karşılayabilirsiniz.
+**Markdown** eğitimi kısaca bu şekildeydi. Bu yönergeler ile birlikte kolay bir şekilde **Markdown** yapısına aşina olabilir ve ihtiyaçlarınızı karşılayabilirsiniz.
 
 <br>
 
